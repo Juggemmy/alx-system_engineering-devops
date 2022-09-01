@@ -14,4 +14,5 @@ touch hello -  a script that creates an empty file called hello
 13 - chgrp school hello - a script that changes the group owner to school for the file hello
 100- chown -hR vincent:staff . - a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 101-chown -h vincent:staff -  a script that changes the owner and the group owner of _hello to vincent and staff respectively.
-102-chown --from=guillaume betty hello - a script that changes the owner of the file hello to betty only if it is owned by the user guillaume. 
+102-chown --from=guillaume betty hello - a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+103-telnet towel.blinkenlights.nl -a script that will play the StarWars IV episode in the terminal. 
