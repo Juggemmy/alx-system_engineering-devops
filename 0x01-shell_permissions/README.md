@@ -13,4 +13,5 @@ touch hello -  a script that creates an empty file called hello
 12- mkdir -m 751 my_dir - Create a script that creates a directory called my_dir with permissions 751 in the working directory.
 13 - chgrp school hello - a script that changes the group owner to school for the file hello
 100- chown -hR vincent:staff . - a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
-101-chown -h vincent:staff -  a script that changes the owner and the group owner of _hello to vincent and staff respectively. 
+101-chown -h vincent:staff -  a script that changes the owner and the group owner of _hello to vincent and staff respectively.
+102-chown --from=guillaume betty hello - a script that changes the owner of the file hello to betty only if it is owned by the user guillaume. 
