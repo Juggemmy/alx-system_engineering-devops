@@ -8,4 +8,5 @@ touch hello -  a script that creates an empty file called hello
 7- chmod ugo+x hello - a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 8-chmod 007 hello - a script that sets the permission to the file hello
 9- chmod 753 hello -  a script that sets the mode of the file hello to -rwxr-x-wx
-10 - chmod --reference=olleh hello 
+10 - chmod --reference=olleh hello
+11 - chmod -R ugo+X - a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed. 
